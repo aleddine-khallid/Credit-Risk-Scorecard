@@ -15,14 +15,14 @@ The core of the pipeline focuses on robust statistical transformations to ensure
 
 ---
 
-## 🔬 Model Comparison & Performance
+##  Model Comparison & Performance
 The project evaluates different modeling approaches to balance performance and explainability.
 
-| Model | Status | Key Metric (AUC) | Notes |
-| :--- | :--- | :--- | :--- |
-| **OLS Linear Regression** | ✅ Completed | *TBD* | Baseline for relationship checking. |
-| **Logistic Regression** | ✅ Completed | *TBD* | Industry standard for credit scoring. |
-| **XGBoost** |
+Models :
+
+**OLS Linear Regression** 
+ **Logistic Regression** 
+ **XGBoost** 
 
 > **Validation:** Models are evaluated using **ROC Curves** and **AUC (Area Under the Curve)** scores.
 
