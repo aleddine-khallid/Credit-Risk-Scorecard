@@ -14,6 +14,11 @@ The core of the pipeline focuses on robust statistical transformations to ensure
 *   **WoE Encoding:** Transformation of categorical/binned data into **Weight of Evidence** statistical weights.
 
 ---
+## Results
+- **AUC:** 0.686
+- **Gini coefficient:** 0.372
+
+![ROC Curve](figures/roc_curve.png)
 
 ##  Model Comparison & Performance
 The project evaluates different modeling approaches to balance performance and explainability.
