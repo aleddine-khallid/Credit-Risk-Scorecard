@@ -170,8 +170,8 @@ def main():
 
 # Plot for ROC curve
     plt.figure(figsize=(8, 6))
-    plt.plot(fpr, tpr, color='blue', lw=2)
-    plt.plot([0, 1], [0, 1], color='gray', linestyle='--')
+    plt.plot(fpr, tpr, color='blue', lw=2, label=f'ROC curve (AUC = {roc_auc:.3f})')
+    plt.plot([0, 1], [0, 1], color='gray', linestyle='--', label='Random guess')
     plt.title("ROC Curve")
     plt.legend(loc="lower right")
     plt.grid()
